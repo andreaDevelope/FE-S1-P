@@ -178,16 +178,12 @@ footer > div >  h3{
 
 footer > div{
     text-align: start;
-    width: 20%;
+    width: 28%;
     margin-inline: auto;
 }
 
 footer > div > h3 + div{
     margin-left: 10%;
-}
-
-footer > div :last-child{
-    text-align: center;
 }
 
 i{
@@ -200,6 +196,14 @@ hr{
     background-color: #ffffffc7; 
     width: 50%;
     margin-top: 1.3rem;
+}
+
+.address{
+    text-align: start;
+}
+
+.text-align{
+    text-align: center;
 }
 
 .cr{
