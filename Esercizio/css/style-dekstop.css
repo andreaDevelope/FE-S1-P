@@ -1,218 +1,241 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body, html {
-    width: 100%;
-    height: 100%;
-    color: #393d41;
-    font-size: 1rem;
-    line-height: 1.65rem;
-    /* font */
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400; /* Peso del carattere */
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  color: #393d41;
+  font-size: 1rem;
+  line-height: 1.65rem;
+  /* font */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Peso del carattere */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 header {
-    background-color: black;
-    text-align: center;
-    height: 10vh;
+  background-color: black;
+  text-align: center;
+  height: 10vh;
 }
 
-header > div{
-    height: 100%;
-    padding: 10px;
-    text-align: start;
-
+header > div {
+  height: 100%;
+  padding: 10px;
+  text-align: start;
 }
 
 header > div img {
-    height: 60%;
-    max-height: 8vh;
+  height: 60%;
+  max-height: 8vh;
+  margin-top: 7px;
+  margin-left: 15px;
 }
 
 .hero {
-    text-align: center;
-    min-height: 60vh;
-    padding: 5vh 5vw;
-    background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-position: center;
+  text-align: center;
+  min-height: 60vh;
+  padding: 5vh 5vw;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-h1,h3 {
-    color: #25a2c3;
-    font-weight: bold;
+h1,
+h3 {
+  color: #25a2c3;
+  font-weight: bold;
+  /* font Montserrat */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5rem;
 }
 
 h1 {
-    font-size: 2rem; 
-    width: 60%;
-    margin: 0 auto;
-    padding-top: 5vh;
+  font-size: 2rem;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5vh;
 }
 
 .hero > h1 + p {
-    margin: 2vh 0;
+  margin: 2vh 0;
 }
 
 button {
-    display: block;
-    padding: 1rem 2rem;
-    margin: 3vh auto;
-    border: none;
-    border-radius: 10px;
-    background-color: #f04c2f;
-    color: white;
-    cursor: pointer;
+  display: block;
+  padding: 1rem 2rem;
+  margin: 3vh auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #f04c2f;
+  color: whitesmoke;
+  cursor: pointer;
+  /* font Montserrat */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 button:hover {
-    background-color: #d94229;
+  background-color: #d94229;
 }
 
 .hero + section {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .margin-block {
-    margin-block: 2rem;
+  margin-block: 1rem;
 }
 
-.inline-block{
-    display: inline-block;
-    height: 60vh;
+.inline-block {
+  display: inline-block;
+  height: 60vh;
 }
 
-.border-radius{
-    border-radius: 50%;
-    width: 60vh;
-    height: 100%;
-    object-fit: cover;
+.border-radius {
+  border-radius: 50%;
+  width: 60vh;
+  height: 100%;
+  object-fit: cover;
 }
 
-.hero + section > div + div{
-    vertical-align: baseline;
-    line-height: 1.1rem;
-    margin-left: 2rem;
+.hero + section > div + div {
+  vertical-align: top;
+  line-height: 1rem;
+  margin-left: 2rem;
+  text-align: start;
 }
 
-.margin{
-    margin-block: 1rem;
+.margin {
+  margin-block: 1rem;
 }
 
-
-
-.separatore{
-    background-color: #DF2D17;
-    min-height: 40vh;
-    color: whitesmoke;
-    text-align: center;
-    padding-bottom: 1rem;
+.separatore {
+  background-color: #df2d17;
+  min-height: 40vh;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 0.3rem;
+  padding-top: 2rem;
 }
 
-.separatore > h2{
-    font-size: 2rem;
-    padding-top: 2rem;
-    font-weight: 600;
+.separatore > h2 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: 600;
+  /* font Montserrat */
+  font-family: "Montserrat", sans-serif;
 }
 
-.font-size{
-    margin-top: 2rem;
-    font-size: 1.4rem;
-
+.emphasy {
+  font-style: italic;
+  font-size: 1rem;
 }
 
-aside{
-    text-align: center;
-    margin-top: 4rem;
+.font-size-1-rem {
+  font-size: 1rem;
 }
 
-.cards{
-    width: 28%;
-    height: 65vh;
-    margin-inline: auto;
-    box-shadow:  -2px 2px 1px 2px rgba(24, 24, 24, 0.5);
-    font-size: 1rem;
-    vertical-align:top;
-    margin-inline: 1rem;
-    
+.font-size {
+  margin-top: 2rem;
+  font-size: 1.4rem;
 }
 
-.cards > img{
-    width: 100%;
+aside {
+  text-align: center;
+  margin-top: 4rem;
 }
 
-.cards > img + h3{
-    font-size: 1.2rem;
-    padding-top:1rem;
-
+.cards {
+  width: 28%;
+  margin-inline: auto;
+  font-size: 1rem;
+  vertical-align: top;
+  margin-inline: 1rem;
+  border: 1px solid #dee1e3;
+  border-radius: 7px;
 }
 
-.padding{
-    padding: 0 1rem 2rem 1rem;
+.cards > img {
+  width: 100%;
+  height: 35vh;
 }
 
-footer{
-    background-color: #25a2c3;
-    min-height: 40vh;
-    color: whitesmoke;
-
+.cards > img + h3 {
+  font-size: 1.2rem;
+  padding-top: 1rem;
 }
 
-footer > div >  h3{
-    color: whitesmoke;
-    font-weight: 700;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: start;
-    padding-left: 2rem;
+.padding {
+  padding: 0 1rem 2rem 1rem;
 }
 
-footer > div{
-    text-align: start;
-    width: 28%;
-    margin-inline: auto;
+footer {
+  background-color: #25a2c3;
+  min-height: 40vh;
+  color: whitesmoke;
 }
 
-footer > div > h3 + div{
-    margin-left: 10%;
+footer > div > h3 {
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: start;
+  padding-left: 2rem;
 }
 
-i{
-    padding-inline: 0.5rem;
-    font-size: 1rem
+footer > div {
+  text-align: start;
+  width: 28%;
+  margin-inline: auto;
 }
 
-hr{
-    height: 1px; 
-    background-color: #ffffffc7; 
-    width: 50%;
-    margin-top: 1.3rem;
+footer > div > h3 + div {
+  margin-left: 10%;
 }
 
-.address{
-    text-align: start;
+i {
+  padding-inline: 0.5rem;
+  font-size: 1rem;
 }
 
-.text-align{
-    text-align: center;
+hr {
+  height: 1px;
+  background-color: #ffffffc7;
+  width: 88%;
+  margin-top: 1.3rem;
+  margin-left: 12%;
 }
 
-.cr{
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding-bottom: 4rem;
+.address {
+  text-align: start;
 }
 
-a{
-    color: #ffffffc7;
+.text-align {
+  text-align: center;
+}
+
+.cr {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-bottom: 4rem;
+}
+
+a {
+  color: whitesmoke;
 }
