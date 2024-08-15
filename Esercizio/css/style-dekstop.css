@@ -4,8 +4,8 @@
 
 body,
 html {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   color: #393d41;
   font-size: 1rem;
   line-height: 1.65rem;
@@ -75,7 +75,7 @@ button {
   border: none;
   border-radius: 10px;
   background-color: #f04c2f;
-  color: whitesmoke;
+  color: #ffffff;
   cursor: pointer;
   /* font Montserrat */
   font-family: "Montserrat", sans-serif;
@@ -162,6 +162,7 @@ aside {
 
 .cards {
   width: 28%;
+  height: 20%;
   margin-inline: auto;
   font-size: 1rem;
   vertical-align: top;
@@ -191,12 +192,13 @@ footer {
 }
 
 footer > div > h3 {
-  color: whitesmoke;
+  color: #ffffff;
   font-weight: 700;
-  font-size: 2rem;
-  padding: 2rem;
+  font-size: 2.5rem;
   text-align: start;
-  padding-left: 2rem;
+  padding-top: 3.5rem;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
 }
 
 footer > div {
@@ -214,20 +216,19 @@ i {
   font-size: 1rem;
 }
 
-hr {
-  height: 1px;
-  background-color: #ffffffc7;
-  width: 88%;
-  margin-top: 1.3rem;
-  margin-left: 12%;
-}
-
 .address {
   text-align: start;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #ffffff;
+  width: 68%;
+  padding-bottom: 1rem;
+}
+
 .text-align {
   text-align: center;
+  margin-right: 32%;
 }
 
 .cr {
@@ -237,5 +238,5 @@ hr {
 }
 
 a {
-  color: whitesmoke;
+  color: #ffffff;
 }
