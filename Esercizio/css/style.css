@@ -23,8 +23,8 @@ header {
   height: 20vh;
 }
 
-header > div img {
-  height: 50px;
+header > figure > img {
+  height: 35px;
   margin-top: 6vh;
 }
 
@@ -49,7 +49,7 @@ h3 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: 60%;
   margin: 0 auto;
   padding-top: 5vh;
@@ -57,6 +57,7 @@ h1 {
 
 .hero > h1 + p {
   margin: 2vh 0;
+  font-size: 1rem;
 }
 
 button {
@@ -66,7 +67,7 @@ button {
   border: none;
   border-radius: 10px;
   background-color: #f04c2f;
-  color: whitesmoke;
+  color: #ffffee;
   cursor: pointer;
   /* font Montserrat */
   font-family: "Montserrat", sans-serif;
@@ -87,18 +88,20 @@ button:hover {
 
 h3 {
   font-size: 1.3rem;
+  margin-top: 1rem;
 }
 
 .margin-block {
   margin-block: 1rem;
   padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .margin-bottom {
   margin-bottom: 0;
 }
 
-.hero + section > h3 + p + h3 + p + img {
+.hero + section > h3 + p + h3 + p + figure > img {
   border-radius: 50%;
   width: 300px;
   padding-bottom: 50px;
@@ -107,13 +110,13 @@ h3 {
 .separatore {
   background-color: #df2d17;
   min-height: 40vh;
-  color: whitesmoke;
+  color: #ffffee;
   text-align: center;
   padding-bottom: 0.3rem;
 }
 
 .separatore > h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding-top: 3.2rem;
   font-weight: 600;
   padding-bottom: 1rem;
@@ -141,7 +144,7 @@ aside {
 }
 
 .cards {
-  width: 85%;
+  width: 93%;
   margin-inline: auto;
   font-size: 1rem;
   border: 1px solid #dee1e3;
@@ -149,13 +152,17 @@ aside {
   border-radius: 7px;
 }
 
-.cards > img {
+.cards > figure > img {
   width: 100%;
 }
 
 .cards > img + h3 {
   font-size: 1.2rem;
   padding-top: 1rem;
+}
+
+.lastCard {
+  margin-bottom: 3.5rem;
 }
 
 .padding {
@@ -170,7 +177,7 @@ footer {
 }
 
 footer > h3 {
-  color: whitesmoke;
+  color: #ffffee;
   font-weight: 700;
   font-size: 2.2rem;
   padding: 2rem;
@@ -184,7 +191,7 @@ i {
 
 hr {
   height: 1px;
-  background-color: whitesmoke;
+  background-color: #ffffee;
   width: 50%;
   margin-top: 1.3rem;
 }
@@ -194,8 +201,11 @@ hr {
   font-weight: 500;
   padding-bottom: 4rem;
   margin-top: 1.3rem;
+  border-top: 1px solid #ffffee;
+  width: 207px;
+  margin-inline: auto;
 }
 
 a {
-  color: whitesmoke;
+  color: #ffffee;
 }
